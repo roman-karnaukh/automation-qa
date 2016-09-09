@@ -19,7 +19,7 @@
 
 $article=$_GET['article'];
 echo $article;
-include "articles/".$article."/".$article.".html";
+include "articles_ru/".$article."/".$article.".html";
 
 ?>
 

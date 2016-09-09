@@ -53,10 +53,10 @@
 								<section>
 									<div class="row">
 										<div class="4u 12u$(mobile)">
-											<a href="article?article=first_article" class="image fit"></a>
+											<a href="article.php?article=first_article" class="image fit"></a>
 										</div>
 										<div class="4u 12u$(mobile)">
-											<a href="article?article=second_article" class="image fit"></a>
+											<a href="article.php?article=second_article" class="image fit"></a>
 										</div>
 										<div class="4u$ 12u$(mobile)">
 											<a href="#" class="image fit"><img src="images/pic03.jpg" alt=""></a>

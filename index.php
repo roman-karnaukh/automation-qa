@@ -6,7 +6,7 @@
 -->
 <html>
 	<head>
-		<title>Astral by HTML5 UP</title>
+		<title>QA Automation Guide</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
@@ -53,10 +53,10 @@
 								<section>
 									<div class="row">
 										<div class="4u 12u$(mobile)">
-											<a href="#" class="image fit"><img src="images/pic01.jpg" alt=""></a>
+											<a href="article?article=first_article" class="image fit"></a>
 										</div>
 										<div class="4u 12u$(mobile)">
-											<a href="#" class="image fit"><img src="images/pic02.jpg" alt=""></a>
+											<a href="article?article=second_article" class="image fit"></a>
 										</div>
 										<div class="4u$ 12u$(mobile)">
 											<a href="#" class="image fit"><img src="images/pic03.jpg" alt=""></a>

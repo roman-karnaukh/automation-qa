@@ -1,6 +1,7 @@
 <php?
-<!-- include php -->
-	echo '<article id="me" class="panel">
+
+	echo '<!-- include php -->
+		<article id="me" class="panel">
 			<header>
 				<h1>Jane Doe</h1>
 				<p>Senior Astral Projectionist</p>

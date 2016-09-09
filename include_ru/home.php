@@ -1,4 +1,5 @@
 <php?
+<!-- include php -->
 	echo '<article id="me" class="panel">
 			<header>
 				<h1>Jane Doe</h1>

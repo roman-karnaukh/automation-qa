@@ -29,10 +29,12 @@
 					<div id="main">
 
 						<!-- Me -->
+						<article id="me" class="panel">
 							<php?
-							include 'include_ru/home.php';
+								include 'include_ru/home.php';
 							?>
-
+						</article>
+							
 						<!-- Work -->
 							<article id="work" class="panel">
 								<header>

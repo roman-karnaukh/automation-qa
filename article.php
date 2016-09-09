@@ -20,7 +20,7 @@
 
 $article=$_GET['article'];
 echo $article;
-echo "<div align="center">";
+echo '<div align="center">';
 include "articles_ru/".$article."/".$article.".html";
 echo "</div>";
 ?>

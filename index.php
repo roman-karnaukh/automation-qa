@@ -1,5 +1,3 @@
-<php?
-?>
 <!DOCTYPE HTML>
 <!--
 	Astral by HTML5 UP

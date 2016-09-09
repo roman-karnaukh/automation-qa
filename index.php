@@ -15,9 +15,6 @@
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
 	</head>
 	<body>
-		<php?
-		echo "it is PHP";
-		?>
 		<!-- Wrapper-->
 			<div id="wrapper">
 

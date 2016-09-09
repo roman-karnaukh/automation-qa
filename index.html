@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html><head>
+  <meta charset="utf-8">
+  <title>remove sessions</title>
+  <style>
+  </style>
+ <script type="text/javascript">
+     function add_input(request){
+        var new_input=document.createElement('div');
+        new_input.innerHTML="<br><iframe width=99% height=25 frameborder=0 src="+request+">";
+
+        document.getElementById('result').appendChild(new_input);
+     }
+
+     function iopen()
+        {
+        var login = document.getElementById("login").value;
+	if(login==""){
+		alert("Введите номер телефона");
+	}else{
+		var request = "";
+		if (document.getElementById("close").checked){
+			request = "https://napi.privatbank.ua/iapi2/delete_sessions_cookie?phone=%2b"+login+"&pass=delsssuserp24mob";
+		}else if(document.getElementById("kill").checked){
+			request = "https://napi.privatbank.ua/iapi2/delete_sessions?phone=%2b"+login+"&pass=delsssuserp24mob";
+		}
+		add_input(request);
+		clearThis(document.getElementById("login"));
+	}
+		
+      }
+
+    function clearThis(target){
+        target.value= "";
+    }
+
+    </script></head>
+
+  
+
+<body>
+      <h1>HelloWOrld</h1>
+
+</body>
+</html>

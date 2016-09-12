@@ -1,14 +1,48 @@
 
 
 .article {
-	width: 75%;
+  	text-align: left;
+}
+	.article p {
+
+	}
+
+.context {
+	width: 45em;
 	background: #fff;
 	text-align: left;
-	height: auto;
-  	border: none;
- 	 outline: none;
- 	-webkit-appearance: none; 
-   	box-shadow:  0 0 10px rgba(0, 0, 0, .5); 
-  	border-radius: 3px 3px 3px 3px; 
-  	line-height: 2;
 }
+
+.header {
+	text-align: left;
+	padding-bottom: 3em;
+}
+
+.title {
+	font-weight: bold;
+	font-size: 2em;
+}
+
+.date {
+	font-size: 0.8em;
+}
+
+
+.subtitle {
+	font-weight: bold;
+	font-size: 1.5em;
+}
+
+.textarea {
+	border-radius: 5px;
+	border: 2px solid #717A73;
+	text-align: left;
+	background:aliceblue;
+	padding: 5px;
+}
+
+.btn-clipboard {
+	border-radius: 5px;
+	margin-left: 5px;
+}
+

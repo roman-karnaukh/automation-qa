@@ -1,0 +1,74 @@
+<!DOCTYPE HTML>
+<html>
+ <head>
+  <meta charset="utf-8">
+  <meta HTTP-EQUIV="Content-language" CONTENT="ru-RU">
+  <meta NAME="description" CONTENT="Сайт содержит информацию об автоматизации моильных приложений на платфоме Android с помощью инструментов Espresso, UI Automator, простая автоматизация сложных вещей для QA Automation, QA Automation Guide.">
+  <meta NAME="keywords" CONTENT="Espresso, UI Automator, QA, QA Automation, Java, Selenium IDE, WebDriver">
+
+  <!-- библиотека LoDash -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.3.0/lodash.js"></script>
+	<script src="/assets/js/templates.js"></script>
+	<script src="https://cdn.rawgit.com/zenorocha/clipboard.js/master/dist/clipboard.min.js"></script>
+</script>
+<script>
+
+	var title = 'Ознакомление с инструментом Espresso Android для QA Automation - простая автоматизация сложных вещей';
+	var header = 'Ознакомление с инструментом Espresso';
+	var date = "09.09.2016";
+	var subtitle1 = "Введение";
+	var p1 = "Открою серию статей(уроков) об практическом применении инструмента разработки UI автотестов android-приложений на примере использования Espresso, разработанного компанией Google. В паре к нему дополнительно будет использоваться инструмент-инспектор UI Automator Viewer.";
+	var p2 = "Ранее Google использовала для автоматизации тестов android-приложений фреймворк под названием Robotium с открытым исходным кодом, который имел недостатки: "+B('скорость, синхронизация')+". Тестируя приложения с Espresso вы можете быть уверенными что это будут самые быстрые UI автотест из возможных на сегодняшний день! Espresso использует синхронизацию с основным потоком, именно поэтому в его исходниках нет и упоминания об методе связанным с ожиданием + он очень быстр. Espresso - является частью репозитория Android Support Repository, то есть отдельно загружать и шарить в интернете для поиска нужной *.jar библиотеки не придется :) ";
+	var subtitle2 = "Подключение Espresso к проекту, что нужно знать";
+	var items = [
+			    "Android Studio",
+			    "ADB(нужно понимать зачем и как подключить отладку на устройстве) ",
+			    "Git(локальный репозиторий)",
+			    "GitHub или ему подобные(именно на них жадные разработчики и хранят плоды своих фантазий)",
+			    "И конечно же иметь базовые понятия языка программирования Java, именно с использованием его и пилится большая часть android-приложений."
+			   ];
+	var p3 = "Если вам необходимо автоматизировать рутинные тесты для регрессионного тестирования, для начала придется обзавестись исходным кодом проекта любезно попросив его у разработчика(ов). Придется скорее всего разобраться об: ";
+	var p4 = "В интернете есть масса инстукций по “всовыванию” Espresso в проект, все они сводятся к следующему:";
+	var instruction = [
+			"Прежде все нужно убедиться что Android Support Repository установлен. Проверить это можно открыв свою ненаглядную Android Studio. Открыть Android SDK Manager и поискать галочку возле интересующего нас пункта:" + Image("img1.png"),
+			"Второй этап - это добавление зависимостей к файлу build.gradle(повезло, если на проекте используется именно gradle для сборки):"
+			+ Code("\
+					dependencies {<br>\
+					   androidTestCompile 'com.android.support.test:testing-support-lib:0.1'<br>\
+					   androidTestCompile 'com.android.support.test.espresso:espresso-core:2.0'<br>\
+					}\
+				", 'button1'),
+
+			"И указать конфигурации по умолчанию об раннере(то что будет непосредственно запускать приложение на девайсе) в нашем случае это будет AndroidJUnitRunner:"
+			+Code('android {<br>\
+				    defaultConfig {<br>\
+				        // ....<br>\
+				        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"<br>\
+				    }<br>\
+				}', 'button2'),
+			"Возможно что на вашем проекте еще до сих пор не используют gradle, тогда в помощь будут либы с удаленного репозитория одного из разработчиков Espresso, по <a href='https://github.com/googlesamples/android-testing/tree/master/ui/espresso/BasicSampleBundled/libs'>ссылке</a> можно скачать интересующие. После скачивания необходимо их подключить к проекту, в Android Studio это происходит так:" + List([
+							"копируете библиотеку в папку lib проекта",
+							"открываете Project Settings и подключаете либы"
+						]),
+			"Пишем свои первые тесты."
+				];
+
+	var p5 = "В следующей статье мы кратко рассмотрим как и что устанавливать на ваш рабочий компьютер.";
+
+	Article(title, Header(header, date)
+		+ Subtitle(subtitle1)
+	 	+ P(p1)
+		+ P(p2)
+		+ Subtitle(subtitle2)
+		+ P(p3) + List(items)
+		+ P(p4)
+		+ numberList(instruction)
+		+ P(p5)
+		);
+
+</script>
+</head>
+<body>
+	
+</body>
+</html>

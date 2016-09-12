@@ -1,9 +1,4 @@
 <!DOCTYPE HTML>
-<!--
-	Astral by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
 <html>
 	<head>
 		<title>QA Automation Guide</title>
@@ -14,49 +9,67 @@
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
 	</head>
+	<!-- contextual advertising -->
+		<div align="center">
+			<div class="context">
+				<p>Context!</p>
+			</div>
+		</div>
 	<body>
+		
 		<!-- Wrapper-->
 			<div id="wrapper">
 
 				<!-- Nav -->
-					<nav id="nav">
+				<nav id="nav">
+					<div>
 						<a href="#me" class="icon active"><img src="icons/home.png" alt="Home" width="50" height="50" border="0"><span>Home</span></a>
-						<a href="#work" class="icon"><img src="icons/document.png" alt="Work" width="50" height="50" border="0"><span>Work</span></a>
+						<a href="#work" class="icon"><img src="icons/document.png" alt="Espresso" width="50" height="50" border="0"><span>Espresso</span></a>
 						<a href="#contact" class="icon"><img src="icons/messages.png" alt="Contact" width="50" height="50" border="0"><span>Contact</span></a>
-					</nav>
 					
+					</div>
+				</nav>
 				<!-- Main -->
 					<div id="main">
 
 						<!-- Me -->
+						<a name="me"></a>
 							<article id="me" class="panel">
+
 								<header>
-									<h1>Jane Doe</h1>
-									<p>Senior Astral Projectionist</p>
+									<h1>QA Automation Guide</h1>
 								</header>
-								<a href="#work" class="jumplink pic">
-									<span class="arrow icon fa-chevron-right"><span>See my work</span></span>
-									<img src="images/me.jpg" alt="" />
-								</a>
+								<body>
+									<p>В данном ресурсе собранны материалы для QA Automation специалистов. Материал будет полезен всем кто хочет или уже изучает(автоматизирует) выполнение тестовых скриптов на своем проекте.</p><br>
+									
+									<p>Начиная автоматизировать приложения (в отдельные периоды Android и Web) автор столкнулся с множеством проблем стопорящим процесс и практически полное отсутвие инструкций по работе с некоторыми инструментами в рунете. Здесь будут собраны по крупинке все необходимые материалы, а главное - на понятном языке. Задать вопрос/сделать замечание/предложение вы всегда сможете во вкладке 
+									<a href="#contact" class="jumplink">Связаться с автором</a>. Желаем терпения и успехов! </p>
+								
+								
+									<a href="#work" class="jumplink pic">
+										<span class="arrow icon fa-chevron-right"><span>Espresso Android</span></span>
+									</a>
+								
+								</body>
 							</article>
 							
 						<!-- Work -->
 							<article id="work" class="panel">
 								<header>
-									<h2>Work</h2>
+									<h2>Espresso Android</h2>
 								</header>
 								<p>
-									Phasellus enim sapien, blandit ullamcorper elementum eu, condimentum eu elit.
-									Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia
-									luctus elit eget interdum.
+									Данный раздел посвящен основным аспектам работы с инструментом автоматизации тестов на платформе Android - Espresso Android, разработанный компанией Google
 								</p>
 								<section>
 									<div class="row">
 										<div class="4u 12u$(mobile)">
-											<a href="article.php?article=first_article" class="image fit"></a>
+											<a href="articles_ru/espresso_introduce" class="image fit">Первая статья</a><br>
+											<p>Введение в приминение фреймворка Espresso для тестирования android-пиложений</p>
 										</div>
 										<div class="4u 12u$(mobile)">
-											<a href="article.php?article=second_article" class="image fit"></a>
+											<a href="article.php?article=second_article" class="image fit">Вторая статья</a><br>
+											<p>Немно небольшого, может даже маленького описания об второй статье</p>
 										</div>
 										<div class="4u$ 12u$(mobile)">
 											<a href="#" class="image fit"><img src="images/pic03.jpg" alt=""></a>
@@ -69,24 +82,6 @@
 										</div>
 										<div class="4u$ 12u$(mobile)">
 											<a href="#" class="image fit"><img src="images/pic06.jpg" alt=""></a>
-										</div>
-										<div class="4u 12u$(mobile)">
-											<a href="#" class="image fit"><img src="images/pic07.jpg" alt=""></a>
-										</div>
-										<div class="4u 12u$(mobile)">
-											<a href="#" class="image fit"><img src="images/pic08.jpg" alt=""></a>
-										</div>
-										<div class="4u$ 12u$(mobile)">
-											<a href="#" class="image fit"><img src="images/pic09.jpg" alt=""></a>
-										</div>
-										<div class="4u 12u$(mobile)">
-											<a href="#" class="image fit"><img src="images/pic10.jpg" alt=""></a>
-										</div>
-										<div class="4u 12u$(mobile)">
-											<a href="#" class="image fit"><img src="images/pic11.jpg" alt=""></a>
-										</div>
-										<div class="4u$ 12u$(mobile)">
-											<a href="#" class="image fit"><img src="images/pic12.jpg" alt=""></a>
 										</div>
 									</div>
 								</section>
@@ -125,7 +120,7 @@
 				<!-- Footer -->
 					<div id="footer">
 						<ul class="copyright">
-							<li>&copy; Untitled.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+							<li>&copy; QA Automation Guide.</li>
 						</ul>
 					</div>
 

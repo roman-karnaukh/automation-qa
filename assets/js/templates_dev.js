@@ -61,11 +61,11 @@ function Article(title, document){
 		<title>'+title+'</title>\
 		<meta charset="utf-8" />\
 		<meta name="viewport" content="width=device-width, initial-scale=1" />\
-		<!--[if lte IE 8]><script src="/assets/js/ie/html5shiv.js"></script><![endif]-->\
-		<link rel="stylesheet" href="/assets/css/main.css" />\
-		<link rel="stylesheet" href="/assets/css/articles.css" />\
-		<noscript><link rel="stylesheet" href="/assets/css/noscript.css" /></noscript>\
-		<!--[if lte IE 8]><link rel="stylesheet" href="/assets/css/ie8.css" /><![endif]-->\
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->\
+		<link rel="stylesheet" href="assets/css/main.css" />\
+		<link rel="stylesheet" href="assets/css/articles.css" />\
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>\
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->\
 	</head>\
 	<!-- contextual advertising -->\
 		<div align="center">\
@@ -79,9 +79,9 @@ function Article(title, document){
 \
 				<!-- Nav -->\
 					<nav id="nav">\
-						<a href="/index.php" class="icon"><img src="/icons/home.png" alt="Home" width="50" height="50" border="0"><span>Home</span></a>\
-						<a href="#work" class="icon active"><img src="/icons/page.png" width="50" height="50" border="0"></a>\
-						<a href="#contact" class="icon"><img src="/icons/messages.png" alt="Contact" width="50" height="50" border="0"><span>Contact</span></a>\
+						<a href="/index.php" class="icon"><img src="icons/home.png" alt="Home" width="50" height="50" border="0"><span>Home</span></a>\
+						<a href="#work" class="icon active"><img src="icons/page.png" width="50" height="50" border="0"></a>\
+						<a href="#contact" class="icon"><img src="icons/messages.png" alt="Contact" width="50" height="50" border="0"><span>Contact</span></a>\
 					</nav>\
 					\
 				<!-- Main -->\
@@ -136,12 +136,12 @@ function Article(title, document){
 			</div>\
 \
 		<!-- Scripts -->\
-			<script src="/assets/js/jquery.min.js"></script>\
-			<script src="/assets/js/skel.min.js"></script>\
-			<script src="/assets/js/skel-viewport.min.js"></script>\
-			<script src="/assets/js/util.js"></script>\
-			<!--[if lte IE 8]><script src="/assets/js/ie/respond.min.js"></script><![endif]-->\
-			<script src="/assets/js/main.js"></script>\
+			<script src="assets/js/jquery.min.js"></script>\
+			<script src="assets/js/skel.min.js"></script>\
+			<script src="assets/js/skel-viewport.min.js"></script>\
+			<script src="assets/js/util.js"></script>\
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->\
+			<script src="assets/js/main.js"></script>\
 			<script src="https://cdn.rawgit.com/zenorocha/clipboard.js/master/dist/clipboard.min.js"></script>\
 	</body>\
 </html>');

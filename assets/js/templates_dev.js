@@ -52,6 +52,23 @@ function Image(src) {
 	return compile('<img src=<%-src%> alt="image" />', { src : src });
 }
 
+
+function sendMessage(name, email, message ) {
+
+	console.log(message + name +email);
+	alert(message + name +email);
+	var service_id = 'gmail';
+	var template_id = 'template_gtoWQ7YQ';
+	var template_params = {
+		name: name,
+		reply_email: email,
+		message: message
+	};
+
+	emailjs.send(service_id,template_id,template_params);
+}
+
+
 /***********************************************/
 
 function Article(title, document){
@@ -66,6 +83,7 @@ function Article(title, document){
 		<link rel="stylesheet" href="assets/css/articles.css" />\
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>\
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->\
+</script>\
 	</head>\
 	<!-- contextual advertising -->\
 		<div align="center">\
@@ -96,35 +114,35 @@ function Article(title, document){
 										</div>\
 							</article>\
 \
-						<!-- Contact -->\
-							<article id="contact" class="panel">\
-								<header>\
-									<h2>Contact Me</h2>\
-								</header>\
-								<form action="#" method="post">\
-									<div>\
-										<div class="row">\
-											<div class="6u 12u$(mobile)">\
-												<input type="text" name="name" placeholder="Name" />\
-											</div>\
-											<div class="6u$ 12u$(mobile)">\
-												<input type="text" name="email" placeholder="Email" />\
-											</div>\
-											<div class="12u$">\
-												<input type="text" name="subject" placeholder="Subject" />\
-											</div>\
-											<div class="12u$">\
-												<textarea name="message" placeholder="Message" rows="8"></textarea>\
-											</div>\
-											<div class="12u$">\
-												<input type="submit" value="Send Message" />\
-											</div>\
-										</div>\
-									</div>\
-								</form>\
-							</article>\
+<!-- Contact -->\
+<article id="contact" class="panel">\
+    <header>\
+        <h2>Contact Me</h2>\
+    </header>\
+    <form action="#" method="post">\
+        <div>\
+            <div class="row">\
+                <div class="6u 12u$(mobile)">\
+                    <input type="text" id="name" placeholder="Name" />\
+                </div>\
+                <div class="6u$ 12u$(mobile)">\
+                    <input type="text" id="email" placeholder="Email" />\
+                </div>\
+                <div class="12u$">\
+                    <input type="text" id="subject" placeholder="Subject" />\
+                </div>\
+                <div class="12u$">\
+                    <textarea id="message" placeholder="Message" rows="8"></textarea>\
+                </div>\
+                <div class="12u$">\
+                    <input type="submit" value="Send Message" onClick="sendMessage()" />\
+                </div>\
+            </div>\
+        </div>\
+    </form>\
+</article>\
 \
-					</div>\
+</div>\
 \
 				<!-- Footer -->\
 					<div id="footer">\

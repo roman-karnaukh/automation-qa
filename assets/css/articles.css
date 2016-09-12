@@ -6,6 +6,10 @@
 	.article p {
 
 	}
+	.article img{
+		width: auto;
+		height: auto;
+	}
 
 .context {
 	width: auto;

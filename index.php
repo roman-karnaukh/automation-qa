@@ -8,6 +8,12 @@
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+		<script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
+             <script type="text/javascript">
+             (function(){
+        			emailjs.init("user_hTubNAZvrnnXeZQXf6VKp");
+             })();
+             </script>
 	</head>
 	<!-- contextual advertising -->
 		<div align="center">
@@ -88,32 +94,32 @@
 							</article>
 
 						<!-- Contact -->
-							<article id="contact" class="panel">
-								<header>
-									<h2>Contact Me</h2>
-								</header>
-								<form action="#" method="post">
-									<div>
-										<div class="row">
-											<div class="6u 12u$(mobile)">
-												<input type="text" name="name" placeholder="Name" />
-											</div>
-											<div class="6u$ 12u$(mobile)">
-												<input type="text" name="email" placeholder="Email" />
-											</div>
-											<div class="12u$">
-												<input type="text" name="subject" placeholder="Subject" />
-											</div>
-											<div class="12u$">
-												<textarea name="message" placeholder="Message" rows="8"></textarea>
-											</div>
-											<div class="12u$">
-												<input type="submit" value="Send Message" />
-											</div>
-										</div>
-									</div>
-								</form>
-							</article>
+                        		<article id="contact" class="panel">
+                        			<header>
+                        				<h2>Contact Me</h2>
+                        			</header>
+                        			<form action="#" method="post" onsubmit="emailjs.sendForm('gmail', 'template_gtoWQ7YQ', this); alert('message sended')">
+                        				<div>
+                        					<div class="row">
+                        						<div class="6u 12u$(mobile)">
+                        							<input type="text" name="from_name" placeholder="Name" />
+                        						</div>
+                        						<div class="6u$ 12u$(mobile)">
+                        							<input type="text" name="reply_to" placeholder="Email" />
+                        						</div>
+                        						<div class="12u$">
+                        							<input type="text" name="to_name" placeholder="Subject" />
+                        						</div>
+                        						<div class="12u$">
+                        							<textarea name="message_html" placeholder="Message" rows="8"></textarea>
+                        						</div>
+                        						<div class="12u$">
+                        							<input type="submit" value="Send Message"/>
+                        						</div>
+                        					</div>
+                        				</div>
+                        			</form>
+                        		</article>
 
 					</div>
 

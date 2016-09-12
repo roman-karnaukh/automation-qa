@@ -11,9 +11,8 @@
 	<script src="assets/js/templates_dev.js"></script>
 	<script src="https://cdn.rawgit.com/zenorocha/clipboard.js/master/dist/clipboard.min.js"></script>
 
-
 <script>
-
+    document.onload = function(){ window.location = 'template.html'; };
 	var title = 'Ознакомление с инструментом Espresso Android для QA Automation - простая автоматизация сложных вещей';
 	var header = 'Ознакомление с инструментом Espresso';
 	var date = "09.09.2016";
@@ -66,6 +65,18 @@
 		+ numberList(instruction)
 		+ P(p5)
 		);
+
+//    var xhr = new XMLHttpRequest();
+//    xhr.onreadystatechange = function () {
+//        if (xhr.readyState === 4) {
+//            alert( xhr.responseText);
+//            // Write( xhr.responseText )
+//            var tmpl = _.template(xhr.responseText);
+//            document.write(tmpl({title: "SOME TITLE", document: "THIS IS DOCUMENT"}));
+//        }
+//    };
+//    xhr.open('GET', 'template.html');
+//    xhr.send();
 
 </script>
 </head>

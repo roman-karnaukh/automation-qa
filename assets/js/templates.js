@@ -34,7 +34,7 @@ function NumberList(items) {
 	return compile('<ol><% items.forEach(function(item) { %><li><%=item%></li><% }); %></ol>', {items : items});
 }
 
-function Link(href, title) {
+function Link(title, href) {
 	return compile('<a href=<%-href%> > <%-title%> </a>', { href : href, title : title});
 }
 
@@ -65,7 +65,7 @@ function GrayCode(code) {
 }
 
 function Image(src) {
-	return compile('<img src=<%-src%> alt="image" />', { src : src });
+	return compile('<div class="article image"><img src=<%-src%> alt="image" /></div>', { src : src });
 }
 
 /***********************************************/

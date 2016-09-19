@@ -6,11 +6,19 @@
 	.article p {
 
 	}
-	.article img{
-		width: auto;
-		height: auto;
-	}
+	/*.article img{*/
+        /*position:absolute;*/
+        /*height:100%;*/
+        /*-webkit-transform: translate(-50%, -50%);*/
+        /*width:100%;*/
+        /*background-size: cover;*/
+	/*}*/
 
+.article.image {
+    height:100%;
+    width:100%;
+    background-size: cover;
+}
 .context {
 	width: auto;
 	/*background: #fff;*/
@@ -43,6 +51,21 @@
 	text-align: left;
 	background:aliceblue;
 	padding: 5px;
+}
+
+.textarea.black {
+	background:#2B2B2B;
+}
+
+.textarea.gray {
+	background: white;
+	border-radius: 0;
+	border: 0;
+	text-align: left;
+	padding: 5px;
+	font-weight: bold;
+    font-style: italic;
+    color: blueviolet;
 }
 
 .btn-clipboard {

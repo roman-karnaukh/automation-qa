@@ -70,12 +70,12 @@
 								<section>
 									<div class="row">
 										<div class="4u 12u$(mobile)">
-											<a href="articles_ru/espresso_introduce" class="image fit">Первая статья</a><br>
+											<a href="articles_ru/espresso_introduce" class="image fit">Ознакомление с инструментом Espresso Android</a><br>
 											<p>Введение в приминение фреймворка Espresso для тестирования android-пиложений</p>
 										</div>
 										<div class="4u 12u$(mobile)">
-											<a href="article.php?article=second_article" class="image fit">Вторая статья</a><br>
-											<p>Немно небольшого, может даже маленького описания об второй статье</p>
+											<a href="articles_ru/install" class="image fit">Необходимое окружение для написанния UI Espresso автотестов </a><br>
+											<p>В данной статье описан процесс установки Java, Android Studio под различные системы</p>
 										</div>
 										<div class="4u$ 12u$(mobile)">
 											<a href="#" class="image fit"><img src="images/pic03.jpg" alt=""></a>

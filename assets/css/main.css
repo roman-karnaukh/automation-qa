@@ -1225,7 +1225,7 @@
 
 			#wrapper {
 
-				width: 45em;
+				width: 50em;
 				margin: 0 auto;
 				opacity: 0.00001;
 			}
@@ -1329,7 +1329,7 @@
 		/* Panels */
 
 			#main {
-				width: 45em;
+				width: 50em;
 				background: #ffffff;
 				box-shadow: 0px 1px 0px 0px rgba(0, 0, 0, 0.25);
 			}
@@ -1339,7 +1339,7 @@
 				position: absolute;
 				top: 0;
 				left: 0;
-				width: 45em;
+				width: 50em;
 			}
 
 		/* Me */

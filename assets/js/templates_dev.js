@@ -30,11 +30,11 @@ function List(items) {
 	return compile('<ul><% items.forEach(function(item) { %><li><%=item%></li><% }); %></ul>', {items : items});
 }
 
-function numberList(items) {
+function NumberList(items) {
 	return compile('<ol><% items.forEach(function(item) { %><li><%=item%></li><% }); %></ol>', {items : items});
 }
 
-function Link(href, title) {
+function Link(title, href) {
 	return compile('<a href=<%-href%> > <%-title%> </a>', { href : href, title : title});
 }
 
@@ -49,8 +49,23 @@ function Code(code, buttonId) {
 				{ textarea : code });
 }
 
+function BlackCode(code, buttonId) {
+	return compile('<br><div width=100% class="textarea black" id='+buttonId+'><%=textarea%></div>\
+					<div align="right"><button class="btn-clipboard" data-clipboard-target="#'+buttonId+'">Скопировать в буфер обмена</button>\
+					</div>\
+					<script>\
+					new Clipboard(".btn-clipboard");\
+					</script>',
+		{ textarea : code });
+}
+
+function GrayCode(code) {
+	return compile('<div width=100% class="textarea gray"><%=textarea%></div>',
+		{ textarea : code });
+}
+
 function Image(src) {
-	return compile('<img src=<%-src%> alt="image" />', { src : src });
+	return compile('<div class="article image"><img src=<%-src%> alt="image" /></div>', { src : src });
 }
 
 

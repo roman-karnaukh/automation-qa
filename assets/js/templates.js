@@ -40,12 +40,28 @@ function Link(href, title) {
 
 function Code(code, buttonId) {
 	return compile('<br><div width=100% class="textarea" id='+buttonId+'><%=textarea%></div>\
+					<div align="right"><button class="btn-clipboard" data-clipboard-target="#'+buttonId+'">\
+					Скопировать в буфер обмена</button>\
+					</div>\
+					<script>\
+					new Clipboard(".btn-clipboard");\
+					</script>',
+		{ textarea : code });
+}
+
+function BlackCode(code, buttonId) {
+	return compile('<br><div width=100% class="textarea black" id='+buttonId+'><%=textarea%></div>\
 					<div align="right"><button class="btn-clipboard" data-clipboard-target="#'+buttonId+'">Скопировать в буфер обмена</button>\
 					</div>\
 					<script>\
 					new Clipboard(".btn-clipboard");\
-					</script>', 
-				{ textarea : code });
+					</script>',
+		{ textarea : code });
+}
+
+function GrayCode(code) {
+	return compile('<div width=100% class="textarea gray"><%=textarea%></div>',
+		{ textarea : code });
 }
 
 function Image(src) {

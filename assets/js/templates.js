@@ -30,7 +30,7 @@ function List(items) {
 	return compile('<ul><% items.forEach(function(item) { %><li><%=item%></li><% }); %></ul>', {items : items});
 }
 
-function numberList(items) {
+function NumberList(items) {
 	return compile('<ol><% items.forEach(function(item) { %><li><%=item%></li><% }); %></ol>', {items : items});
 }
 

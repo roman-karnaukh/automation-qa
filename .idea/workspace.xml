@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2e888cd3-3024-4b70-8010-0b4c177f7b46" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/articles_ru/espresso_introduce/index.html" afterPath="$PROJECT_DIR$/articles_ru/espresso_introduce/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/articles_ru/espresso_introduce/img1.png" afterPath="$PROJECT_DIR$/articles_ru/espresso_introduce/img1.png" />
     </list>
     <ignored path="AutomationQaSite.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -215,6 +215,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/articles_ru/espresso_introduce" />
       <recent name="$PROJECT_DIR$/articles_ru/install" />
       <recent name="$PROJECT_DIR$/assets/js" />
       <recent name="$PROJECT_DIR$" />
@@ -322,12 +323,12 @@
       <updated>1473676506053</updated>
       <workItem from="1473679070554" duration="33000" />
       <workItem from="1473679122769" duration="18762000" />
-      <workItem from="1474289666881" duration="7238000" />
+      <workItem from="1474289666881" duration="7879000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26033000" />
+    <option name="totallyTimeSpent" value="26674000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="24" width="1301" height="744" extended-state="6" />

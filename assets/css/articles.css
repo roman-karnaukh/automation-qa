@@ -68,10 +68,23 @@
 
 .navigation {
     /*border-radius: 15px;*/
-    /*background:black;*/
+    /*background: #529D3E;*/
     /*opacity: 0.5;*/
     /*align-content: center;*/
     /*align-self: center;*/
     /*display:-webkit-inline-box;*/
+}
+
+#scrollup {
+    position: fixed; /* фиксированная позиция */
+    opacity: 0.8; /* прозрачность */
+    padding: 15px 10px 10px; /* отступы */
+    align-self: center;
+    align-content: center;
+    left: 60em; /* отступ слева */
+    bottom: 15em; /* отступ снизу */
+    display: none; /* спрятать блок */
+    cursor: pointer;
+    content: url("images/up.png");
 }
 

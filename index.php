@@ -78,8 +78,9 @@
 											<p>В данной статье описан процесс установки Java, Android Studio под различные системы</p>
 										</div>
 										<div class="4u$ 12u$(mobile)">
-											<a href="#" class="image fit"><img src="images/pic03.jpg" alt=""></a>
-										</div>
+											<a href="articles_ru/espresso_cheat_sheet" class="image fit">Рассмотрим Espresso cheat sheet</a><br>
+                                            <p>Коротко о главном - краткое описание методов инстурмента Espresso</p>
+                                        </div>
 										<div class="4u 12u$(mobile)">
 											<a href="#" class="image fit"><img src="images/pic04.jpg" alt=""></a>
 										</div>

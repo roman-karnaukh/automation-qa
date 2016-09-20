@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2e888cd3-3024-4b70-8010-0b4c177f7b46" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/articles_ru/espresso_cheat_sheet/code.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/articles_ru/espresso_cheat_sheet/espressocs.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/code.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/espressocs.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/articles_ru/espresso_cheat_sheet/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/articles_ru/espresso_cheat_sheet/index.html" afterPath="$PROJECT_DIR$/articles_ru/espresso_cheat_sheet/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index_dev.html" afterPath="$PROJECT_DIR$/index_dev.html" />
     </list>
     <ignored path="AutomationQaSite.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -29,21 +23,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/articles_ru/espresso_cheat_sheet/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="23" column="38" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="38" />
+            <state relative-caret-position="180">
+              <caret line="13" column="8" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="373">
-              <caret line="81" column="69" selection-start-line="81" selection-start-column="69" selection-end-line="81" selection-end-column="69" />
+              <caret line="81" column="67" selection-start-line="81" selection-start-column="67" selection-end-line="81" selection-end-column="67" />
               <folding />
             </state>
           </provider>
@@ -92,9 +86,9 @@
         <option value="$PROJECT_DIR$/articles_ru/install/index.html" />
         <option value="$PROJECT_DIR$/assets/js/templates.js" />
         <option value="$PROJECT_DIR$/articles_ru/espresso_introduce/index.html" />
-        <option value="$PROJECT_DIR$/articles_ru/espresso_cheat_sheet/index.html" />
         <option value="$PROJECT_DIR$/index_dev.html" />
         <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/articles_ru/espresso_cheat_sheet/index.html" />
       </list>
     </option>
   </component>
@@ -381,12 +375,12 @@
       <updated>1473676506053</updated>
       <workItem from="1473679070554" duration="33000" />
       <workItem from="1473679122769" duration="18762000" />
-      <workItem from="1474289666881" duration="10179000" />
+      <workItem from="1474289666881" duration="10310000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28974000" />
+    <option name="totallyTimeSpent" value="29105000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="24" width="1301" height="744" extended-state="6" />
@@ -794,14 +788,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/articles_ru/espresso_cheat_sheet/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="23" column="38" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index_dev.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="324">
@@ -813,7 +799,15 @@
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="373">
-          <caret line="81" column="69" selection-start-line="81" selection-start-column="69" selection-end-line="81" selection-end-column="69" />
+          <caret line="81" column="67" selection-start-line="81" selection-start-column="67" selection-end-line="81" selection-end-column="67" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/articles_ru/espresso_cheat_sheet/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="13" column="8" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
           <folding />
         </state>
       </provider>

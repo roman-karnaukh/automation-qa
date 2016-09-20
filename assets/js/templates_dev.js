@@ -10,11 +10,15 @@ function Write(template){
 
 
 function P(to_type) {
-	return compile('<p ><%=text%></p>', {text : to_type});
+	return compile('<%=text%></p>', {text : to_type});
 }
 
 function B(to_type) {
 	return compile('<b><%=text%></b>', {text : to_type});
+}
+
+function Reference(to_type) {
+	return compile('<div class="article reference"><%=text%></div>', {text : to_type});
 }
 
 function Header(title, date) {
@@ -50,7 +54,7 @@ function Code(code, buttonId) {
 }
 
 function BlackCode(code, buttonId) {
-	return compile('<br><div width=100% class="textarea black" id='+buttonId+'><%=textarea%></div>\
+	return compile('<br><div width=100% class="textarea black shadow" id='+buttonId+'><%=textarea%></div>\
 					<div align="right"><button class="btn-clipboard" data-clipboard-target="#'+buttonId+'">Скопировать в буфер обмена</button>\
 					</div>\
 					<script>\

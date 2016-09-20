@@ -7,6 +7,21 @@
 
 	}
 
+    .article i {
+        font-size: 5px;
+        color: #6C6C6C;
+        font-weight: lighter;
+        font-style: italic;
+	}
+
+.article.reference {
+    color: #aaaaaa;
+    font-weight: lighter;
+    font-style: italic;
+    font-size: 0.75em;
+    line-height: 140%;
+}
+
 .article.image {
     height:100%;
     width:100%;
@@ -41,13 +56,19 @@
 .textarea {
 	border-radius: 5px;
 	border: 2px solid #717A73;
-	text-align: left;
 	background:aliceblue;
 	padding: 5px;
 }
 
 .textarea.black {
+    border: 0 ;
 	background:#2B2B2B;
+    line-height: 0;
+    font-size: 0.6em;
+}
+
+.textarea.black.shadow {
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
 }
 
 .textarea.gray {

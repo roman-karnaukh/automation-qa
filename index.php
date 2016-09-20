@@ -82,7 +82,8 @@
                                             <p>Коротко о главном - описание методов инстурмента Espresso</p>
                                         </div>
 										<div class="4u 12u$(mobile)">
-											<a href="#" class="image fit"><img src="images/pic04.jpg" alt=""></a>
+                                            <a href="articles_ru/custom_view_matchers" class="image fit">Создание кастомных ViewMatcher</a><br>
+                                            <p>Описан процесс создания кастомного "матчера" для использования с инстурментом Espresso</p>
 										</div>
 										<div class="4u 12u$(mobile)">
 											<a href="#" class="image fit"><img src="images/pic05.jpg" alt=""></a>

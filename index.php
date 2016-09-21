@@ -82,12 +82,13 @@
                                             <p>Коротко о главном - описание методов инстурмента Espresso</p>
                                         </div>
 										<div class="4u 12u$(mobile)">
-                                            <a href="articles_ru/custom_view_matchers" class="image fit">Создание кастомных ViewMatcher</a><br>
+                                            <a href="articles_ru/custom_view_matchers" class="image fit">Создание кастомных ViewMatchers</a><br>
                                             <p>Описан процесс создания кастомного "матчера" для использования с инстурментом Espresso</p>
 										</div>
 										<div class="4u 12u$(mobile)">
-											<a href="#" class="image fit"><img src="images/pic05.jpg" alt=""></a>
-										</div>
+											<a href="articles_ru/custom_view_actions" class="image fit">Создание кастомных ViewActions</a><br>
+                                            <p>Описан процесс создания кастомного "екшена" для использования с инстурментом Espresso</p>
+                                         </div>
 										<div class="4u$ 12u$(mobile)">
 											<a href="#" class="image fit"><img src="images/pic06.jpg" alt=""></a>
 										</div>

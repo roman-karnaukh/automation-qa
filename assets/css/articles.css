@@ -20,6 +20,7 @@
     font-style: italic;
     font-size: 0.75em;
     line-height: 140%;
+    padding-left: 3em;
 }
 
 .article.image {
@@ -47,13 +48,13 @@
 	font-size: 0.8em;
 }
 
-
 .subtitle {
 	font-weight: bold;
 	font-size: 1.5em;
 }
 
 .textarea {
+    position: relative;
 	border-radius: 5px;
 	border: 2px solid #717A73;
 	background:aliceblue;
@@ -77,14 +78,23 @@
 	border: 0;
 	text-align: left;
 	padding: 5px;
-	font-weight: bold;
     font-style: italic;
     color: blueviolet;
 }
 
 .btn-clipboard {
-	border-radius: 5px;
+    position: absolute;
 	margin-left: 5px;
+    opacity: 0.5; /* прозрачность */
+    padding: 3px 10px 10px 10px; /* отступы */
+    cursor: pointer;
+    content: url("images/copy.png");
+    bottom: 2%;
+    right: 1%;
+}
+
+.btn-clipboard:hover {
+    opacity: 1;
 }
 
 .navigation {
@@ -102,8 +112,10 @@
     padding: 15px 10px 10px; /* отступы */
     align-self: center;
     align-content: center;
-    left: 60em; /* отступ слева */
-    bottom: 15em; /* отступ снизу */
+    /*left: 60em; !* отступ слева *!*/
+    /*bottom: 15em; !* отступ снизу *!*/
+    right: 3%;
+    bottom: 45%;
     display: none; /* спрятать блок */
     cursor: pointer;
     content: url("images/up.png");

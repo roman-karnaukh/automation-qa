@@ -42,10 +42,9 @@ function Link(title, href) {
 }
 
 function Code(code, buttonId) {
-	return compile('<br><div width=100% class="textarea" id='+buttonId+'><%=textarea%></div>\
-					<div align="right"><button class="btn-clipboard" data-clipboard-target="#'+buttonId+'">\
-					Скопировать в буфер обмена</button>\
-					</div>\
+	return compile('<br><div width=100% class="textarea" id='+buttonId+'><%=textarea%>\
+					<div align="right"><div class="btn-clipboard" data-clipboard-target="#'+buttonId+'"></div>\
+					</div></div>\
 					<script>\
 					new Clipboard(".btn-clipboard");\
 					</script>',
@@ -53,9 +52,11 @@ function Code(code, buttonId) {
 }
 
 function BlackCode(code, buttonId) {
-	return compile('<br><div width=100% class="textarea black shadow" id='+buttonId+'><%=textarea%></div>\
-					<div align="right"><button class="btn-clipboard" data-clipboard-target="#'+buttonId+'">Скопировать в буфер обмена</button>\
-					</div>\
+	return compile('<br>' +
+		'<div width=100% class="textarea black shadow" id='+buttonId+'>' +
+		'<%=textarea%>' +
+		'<div align="right"><div class="btn-clipboard" data-clipboard-target="#'+buttonId+'"></div>\
+		</div></div>\
 					<script>\
 					new Clipboard(".btn-clipboard");\
 					</script>',

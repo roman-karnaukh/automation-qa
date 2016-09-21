@@ -8,14 +8,10 @@
 
   <!-- библиотека LoDash -->
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.3.0/lodash.js"></script>
-	<script src="assets/js/templates_dev.js"></script>
+	<script src="/assets/js/templates.js"></script>
 	<script src="https://cdn.rawgit.com/zenorocha/clipboard.js/master/dist/clipboard.min.js"></script>
 
 <script>
-        /*images*/
-    var imageCode = "code.png";
-    var imageError = "error.png";
-
         /*links*/
     var hrefEspressoCheatSheet = "/articles_ru/espresso_cheat_sheet";
 
@@ -24,7 +20,7 @@
         var header = 'Кастомные ViewAction';
         var date = "15.09.2016";
         var subtitle1 = "Описание";
-        var string1 = "Термин ViewAction мы взяли из "+Link("Espresso cheat sheet" , hrefEspressoCheatSheet)+". Имеется ввиду метод класса ViewActions:";
+        var string1 = "Термин ViewAction мы взяли из "+Link("Espresso cheat sheet." , hrefEspressoCheatSheet)+" Имеется ввиду метод класса ViewActions:";
         var list1 = ["click()",
             "doubleClick()",
             "longClick()",
@@ -64,12 +60,12 @@
     Article(title, Header(header, date)
             + Subtitle(subtitle1)
             + P(string1 + List(list1))
-            + P(string2 + BlackCode(code1, "code1"))
+            + P(string2 + BlackCode(code1))
             + P(p1)
             + Subtitle(subtitle2)
             + P(NumberList(numberList1))
-            + P(string3 + BlackCode(code2, "code2"))
-            + P(string4 + Code(code3, "code3"))
+            + P(string3 + BlackCode(code2))
+            + P(string4 + Code(code3))
     );
 
 

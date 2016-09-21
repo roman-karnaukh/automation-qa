@@ -90,7 +90,8 @@
                                             <p>Описан процесс создания кастомного "екшена" для использования с инстурментом Espresso</p>
                                          </div>
 										<div class="4u$ 12u$(mobile)">
-											<a href="#" class="image fit"><img src="images/pic06.jpg" alt=""></a>
+											<a href="articles_ru/custom_view_assertions" class="image fit">Создание кастомных ViewAssertions</a><br>
+                                            <p>Описан процесс создания кастомного "ассерта" для использования с инстурментом Espresso</p>
 										</div>
 									</div>
 								</section>

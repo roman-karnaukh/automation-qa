@@ -69,8 +69,17 @@ function GrayCode(code) {
 }
 
 function Image(src) {
-	return compile('<div class="article image"><img src=<%-src%> alt="image" /></div>', { src : src });
+	return compile('<br><div class="article image"><img src=<%-src%> alt="image" /></div><br>', { src : src });
 }
+
+
+/***************Repository Links*************/
+function git_hub_espresso_example() {
+	var href = "https://github.com/roman-karnaukh/espresso_example";
+	var title = "espresso_example";
+	return Link(title, href);
+}
+
 
 /***********************************************/
 

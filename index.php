@@ -71,7 +71,7 @@
 									<div class="row">
 										<div class="4u 12u$(mobile)">
 											<a href="articles_ru/espresso_introduce" class="image fit">Ознакомление с инструментом Espresso Android</a><br>
-											<p>Введение в приминение фреймворка Espresso для тестирования android-пиложений</p>
+											<p>Введение в приминение фреймворка Espresso для тестирования android-пpиложений</p>
 										</div>
 										<div class="4u 12u$(mobile)">
 											<a href="articles_ru/install" class="image fit">Необходимое окружение для написанния UI Espresso автотестов </a><br>
@@ -93,6 +93,18 @@
 											<a href="articles_ru/custom_view_assertions" class="image fit">Создание кастомных ViewAssertions</a><br>
                                             <p>Описан процесс создания кастомного "ассерта" для использования с инстурментом Espresso</p>
 										</div>
+                                        <div class="4u 12u$(mobile)">
+											<a href="articles_ru/first_tests" class="image fit">Пишем первые UI автотесты</a><br>
+											<p>Рассмотривается написание ui автотеста с помощью Espresso используя тестовое приложение</p>
+										</div>
+										<div class="4u 12u$(mobile)">
+											<a href="articles_ru/" class="image fit">title</a><br>
+											<p>description</p>
+										</div>
+										<div class="4u$ 12u$(mobile)">
+											<a href="articles_ru/" class="image fit">title</a><br>
+                                            <p>description</p>
+                                        </div>
 									</div>
 								</section>
 							</article>

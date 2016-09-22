@@ -98,8 +98,8 @@
 											<p>Рассмотривается написание ui автотеста с помощью Espresso используя тестовое приложение</p>
 										</div>
 										<div class="4u 12u$(mobile)">
-											<a href="articles_ru/" class="image fit">title</a><br>
-											<p>description</p>
+											<a href="articles_ru/ui_automator_viewer" class="image fit">Использование UIAutomatorViewer</a><br>
+											<p>Использование UIAutomatorViewer для просмотра иерархии виджетов и получения id ресурса</p>
 										</div>
 										<div class="4u$ 12u$(mobile)">
 											<a href="articles_ru/" class="image fit">title</a><br>

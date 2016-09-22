@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2e888cd3-3024-4b70-8010-0b4c177f7b46" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/articles_ru/first_tests/index.html" afterPath="$PROJECT_DIR$/articles_ru/first_tests/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/articles.css" afterPath="$PROJECT_DIR$/assets/css/articles.css" />
     </list>
     <ignored path="AutomationQaSite.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -22,11 +22,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="articles.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="articles.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/assets/css/articles.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="522">
-              <caret line="29" column="16" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="16" />
+            <state relative-caret-position="432">
+              <caret line="84" column="14" selection-start-line="84" selection-start-column="4" selection-end-line="84" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -42,7 +42,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/articles_ru/first_tests/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="324">
@@ -190,7 +190,6 @@
         <option value="/HTML Fragment (index_dev.html:18300).html" />
         <option value="/HTML Fragment (index_dev.html:16330).html" />
         <option value="/HTML Fragment (index_dev.html:27114).html" />
-        <option value="$PROJECT_DIR$/assets/css/articles.css" />
         <option value="$PROJECT_DIR$/assets/js/templates.js" />
         <option value="$PROJECT_DIR$/assets/js/templates_dev.js" />
         <option value="$PROJECT_DIR$/articles_ru/custom_view_assertions/index_dev.html" />
@@ -207,6 +206,7 @@
         <option value="$PROJECT_DIR$/index.php" />
         <option value="/HTML Fragment (index.html:26910).html" />
         <option value="$PROJECT_DIR$/articles_ru/first_tests/index.html" />
+        <option value="$PROJECT_DIR$/assets/css/articles.css" />
       </list>
     </option>
   </component>
@@ -537,12 +537,12 @@
       <workItem from="1473679122769" duration="18762000" />
       <workItem from="1474289666881" duration="41968000" />
       <workItem from="1474528982705" duration="6000" />
-      <workItem from="1474544995180" duration="4501000" />
+      <workItem from="1474544995180" duration="4975000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="69122000" />
+    <option name="totallyTimeSpent" value="69596000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="24" width="1301" height="744" extended-state="6" />
@@ -922,14 +922,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/css/articles.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="522">
-          <caret line="29" column="16" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="303">
@@ -1037,6 +1029,14 @@
             <marker date="1474551731802" expanded="true" signature="27032:27082" ph="..." />
             <marker date="1474551731802" expanded="true" signature="34175:34322" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/articles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="84" column="14" selection-start-line="84" selection-start-column="4" selection-end-line="84" selection-end-column="14" />
+          <folding />
         </state>
       </provider>
     </entry>

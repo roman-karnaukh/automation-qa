@@ -124,3 +124,18 @@
     content: url("images/up.png");
 }
 
+#back {
+    position: fixed; /* фиксированная позиция */
+    opacity: 0.8; /* прозрачность */
+    padding: 15px 10px 10px; /* отступы */
+    align-self: center;
+    align-content: center;
+    /*left: 60em; !* отступ слева *!*/
+    /*bottom: 15em; !* отступ снизу *!*/
+    right: 3%;
+    bottom: 43%;
+    display: none; /* спрятать блок */
+    cursor: pointer;
+    content: url("images/back.png");
+}
+

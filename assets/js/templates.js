@@ -153,13 +153,15 @@ function Article(title, body){
 		'\t\t</div>\n\n' +
 		'\t\t<!-- Footer -->\n' +
 		'<div id="scrollup"></div>' +
+		'<div id="back"></div>' +
 		'<div id="footer">\n' +
 		'<ul class="copyright">' +
 		'<li>&copy; QA Automation Guide.</li></li>' +
 		'</ul>' +
 		'</div>' +
 		'\t</div>\n\n' +
-		'\t<!-- Scripts --><script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js">' +
+		'\t<!-- Scripts -->\n    <script>\n    var div = document.getElementById("back");\n    div.onclick = function () {\n        window.history.back();\n    }\n    </script>\n' +
+		'<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js">' +
 		'</script><script type="text/javascript" src="/assets/js/scrollup.js"></script>\n' +
 		'\t<script src="/assets/js/jquery.min.js"></script>\n\t' +
 		'\t<script src="/assets/js/skel.min.js"></script>\n\t' +

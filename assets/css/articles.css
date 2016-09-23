@@ -118,7 +118,7 @@
     /*left: 60em; !* отступ слева *!*/
     /*bottom: 15em; !* отступ снизу *!*/
     right: 3%;
-    bottom: 45%;
+    bottom: 50%;
     display: none; /* спрятать блок */
     cursor: pointer;
     content: url("images/up.png");
@@ -133,7 +133,7 @@
     /*left: 60em; !* отступ слева *!*/
     /*bottom: 15em; !* отступ снизу *!*/
     right: 3%;
-    bottom: 40%;
+    bottom: 45%;
     /*display: none; !* спрятать блок *!*/
     cursor: pointer;
     content: url("images/back.png");

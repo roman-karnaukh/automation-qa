@@ -134,7 +134,7 @@
     /*bottom: 15em; !* отступ снизу *!*/
     right: 3%;
     bottom: 43%;
-    display: none; /* спрятать блок */
+    /*display: none; !* спрятать блок *!*/
     cursor: pointer;
     content: url("images/back.png");
 }

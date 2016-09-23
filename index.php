@@ -102,8 +102,8 @@
 											<p>Использование UIAutomatorViewer для просмотра иерархии виджетов и получения id ресурса</p>
 										</div>
 										<div class="4u$ 12u$(mobile)">
-											<a href="articles_ru/" class="image fit">title</a><br>
-                                            <p>description</p>
+											<a href="articles_ru/recycler_view" class="image fit">Работаем с RecyclerView</a><br>
+                                            <p>Описание основных аспектов тестирования приложения, использующего в качестве контейнера RecyclerView</p>
                                         </div>
 									</div>
 								</section>

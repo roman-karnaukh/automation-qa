@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="2e888cd3-3024-4b70-8010-0b4c177f7b46" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/articles.css" afterPath="$PROJECT_DIR$/assets/css/articles.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/js/scrollup.js" afterPath="$PROJECT_DIR$/assets/js/scrollup.js" />
     </list>
     <ignored path="AutomationQaSite.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -26,8 +25,8 @@
       <file leaf-file-name="articles.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/assets/css/articles.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="137" column="20" selection-start-line="137" selection-start-column="20" selection-end-line="137" selection-end-column="20" />
+            <state relative-caret-position="396">
+              <caret line="135" column="14" selection-start-line="135" selection-start-column="14" selection-end-line="135" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -46,8 +45,8 @@
       <file leaf-file-name="templates.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/js/templates.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="271">
-              <caret line="155" column="22" selection-start-line="155" selection-start-column="18" selection-end-line="155" selection-end-column="22" />
+            <state relative-caret-position="159">
+              <caret line="154" column="9" selection-start-line="154" selection-start-column="9" selection-end-line="155" selection-end-column="33" />
               <folding>
                 <marker date="1474643577210" expanded="true" signature="1269:1398" ph="..." />
                 <marker date="1474643577210" expanded="true" signature="1308:1392" ph="..." />
@@ -463,12 +462,12 @@
       <workItem from="1474289666881" duration="41968000" />
       <workItem from="1474528982705" duration="6000" />
       <workItem from="1474544995180" duration="8384000" />
-      <workItem from="1474638059586" duration="4886000" />
+      <workItem from="1474638059586" duration="5023000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="77891000" />
+    <option name="totallyTimeSpent" value="78028000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="-4" width="1301" height="772" extended-state="6" />
@@ -774,18 +773,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/js/scrollup.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-          <folding />
-        </state>
+    <entry file="file://$PROJECT_DIR$/assets/css/images/back.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/js/templates.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="271">
-          <caret line="155" column="22" selection-start-line="155" selection-start-column="18" selection-end-line="155" selection-end-column="22" />
+        <state relative-caret-position="159">
+          <caret line="154" column="9" selection-start-line="154" selection-start-column="9" selection-end-line="155" selection-end-column="33" />
           <folding>
             <marker date="1474643577210" expanded="true" signature="1269:1398" ph="..." />
             <marker date="1474643577210" expanded="true" signature="1308:1392" ph="..." />
@@ -798,15 +794,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/css/images/back.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
+    <entry file="file://$PROJECT_DIR$/assets/js/scrollup.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/css/articles.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="137" column="20" selection-start-line="137" selection-start-column="20" selection-end-line="137" selection-end-column="20" />
+        <state relative-caret-position="396">
+          <caret line="135" column="14" selection-start-line="135" selection-start-column="14" selection-end-line="135" selection-end-column="14" />
           <folding />
         </state>
       </provider>

@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2e888cd3-3024-4b70-8010-0b4c177f7b46" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/css/images/back.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/articles.css" afterPath="$PROJECT_DIR$/assets/css/articles.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/js/templates.js" afterPath="$PROJECT_DIR$/assets/js/templates.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/js/scrollup.js" afterPath="$PROJECT_DIR$/assets/js/scrollup.js" />
     </list>
     <ignored path="AutomationQaSite.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -25,11 +22,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="articles.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="articles.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/css/articles.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="486">
               <caret line="138" column="33" selection-start-line="138" selection-start-column="33" selection-end-line="138" selection-end-column="33" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="scrollup.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/assets/js/scrollup.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="162">
+              <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
               <folding />
             </state>
           </provider>
@@ -77,7 +84,6 @@
         <option value="$PROJECT_DIR$/articles_ru/espresso_introduce/index.html" />
         <option value="$PROJECT_DIR$/articles_ru/espresso_cheat_sheet/index.html" />
         <option value="$PROJECT_DIR$/assets/css/main.css" />
-        <option value="$PROJECT_DIR$/assets/js/scrollup.js" />
         <option value="$PROJECT_DIR$/test.html" />
         <option value="/HTML Fragment (index_dev.html:2605).html" />
         <option value="/HTML Fragment (index_dev.html:17453).html" />
@@ -124,6 +130,7 @@
         <option value="$PROJECT_DIR$/assets/js/templates.js" />
         <option value="/HTML Fragment (templates.js:2438).html" />
         <option value="$PROJECT_DIR$/assets/css/articles.css" />
+        <option value="$PROJECT_DIR$/assets/js/scrollup.js" />
       </list>
     </option>
   </component>
@@ -455,12 +462,12 @@
       <workItem from="1474289666881" duration="41968000" />
       <workItem from="1474528982705" duration="6000" />
       <workItem from="1474544995180" duration="8384000" />
-      <workItem from="1474638059586" duration="4677000" />
+      <workItem from="1474638059586" duration="4800000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="77682000" />
+    <option name="totallyTimeSpent" value="77805000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="-4" width="1301" height="772" extended-state="6" />
@@ -579,13 +586,6 @@
     <entry file="file://$PROJECT_DIR$/assets/css/images/bg_g.jpg" />
     <entry file="file://$PROJECT_DIR$/up.jpg" />
     <entry file="file://$PROJECT_DIR$/up.png" />
-    <entry file="file://$PROJECT_DIR$/assets/js/scrollup.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="1" column="21" selection-start-line="1" selection-start-column="21" selection-end-line="1" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/template.html" />
     <entry file="file://$PROJECT_DIR$/test.html">
       <provider selected="true" editor-type-id="text-editor">
@@ -794,6 +794,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="486">
           <caret line="138" column="33" selection-start-line="138" selection-start-column="33" selection-end-line="138" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/js/scrollup.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
           <folding />
         </state>
       </provider>

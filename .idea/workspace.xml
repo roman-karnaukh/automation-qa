@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2e888cd3-3024-4b70-8010-0b4c177f7b46" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/articles_ru/on_data/person.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/articles_ru/on_data/result.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/articles_ru/on_data/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/articles.css" afterPath="$PROJECT_DIR$/assets/css/articles.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/js/scrollup.js" afterPath="$PROJECT_DIR$/assets/js/scrollup.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/js/templates.js" afterPath="$PROJECT_DIR$/assets/js/templates.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/js/templates_dev.js" afterPath="$PROJECT_DIR$/assets/js/templates_dev.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/articles_ru/on_data/index.html" afterPath="$PROJECT_DIR$/articles_ru/on_data/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index_dev.html" afterPath="$PROJECT_DIR$/index_dev.html" />
     </list>
     <ignored path="AutomationQaSite.iws" />
@@ -30,22 +22,12 @@
     <favorites_list name="AutomationQaSite" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="articles.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/css/articles.css">
+    <leaf>
+      <file leaf-file-name="HTML Fragment (index_dev.html:22030).html" pinned="false" current-in-tab="true">
+        <entry file="mock:///HTML Fragment (index_dev.html:22030).html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="135" column="14" selection-start-line="135" selection-start-column="14" selection-end-line="135" selection-end-column="14" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/articles_ru/on_data/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="188">
-              <caret line="28" column="650" selection-start-line="28" selection-start-column="650" selection-end-line="28" selection-end-column="650" />
+            <state relative-caret-position="0">
+              <caret line="0" column="41" selection-start-line="0" selection-start-column="18" selection-end-line="0" selection-end-column="41" />
               <folding />
             </state>
           </provider>
@@ -71,8 +53,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="/HTML Fragment (index_dev.html:18321).html" />
-        <option value="/HTML Fragment (index_dev.html:17852).html" />
         <option value="/HTML Fragment (index_dev.html:18320).html" />
         <option value="$PROJECT_DIR$/articles_ru/custom_view_matchers/index.html" />
         <option value="$PROJECT_DIR$/articles_ru/custom_view_actions/index.html" />
@@ -119,9 +99,11 @@
         <option value="/HTML Fragment (index_dev.html:72465).html" />
         <option value="/HTML Fragment (index_dev.html:128538).html" />
         <option value="$PROJECT_DIR$/assets/js/templates_dev.js" />
-        <option value="$PROJECT_DIR$/index_dev.html" />
         <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/index_dev.html" />
+        <option value="/HTML Fragment (index_dev.html:22030).html" />
         <option value="$PROJECT_DIR$/articles_ru/on_data/index.html" />
+        <option value="/HTML Fragment (index.html:21900).html" />
       </list>
     </option>
   </component>
@@ -490,16 +472,16 @@
       <workItem from="1474528982705" duration="6000" />
       <workItem from="1474544995180" duration="8384000" />
       <workItem from="1474638059586" duration="6024000" />
-      <workItem from="1474900434597" duration="3635000" />
+      <workItem from="1474900434597" duration="4246000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="82664000" />
+    <option name="totallyTimeSpent" value="83275000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="24" width="1301" height="744" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24980783" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -535,13 +517,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/assets/js/templates_dev.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1062">
-          <caret line="59" column="14" selection-start-line="59" selection-start-column="14" selection-end-line="59" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/js/templates.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2556">
@@ -757,14 +732,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/css/articles.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="135" column="14" selection-start-line="135" selection-start-column="14" selection-end-line="135" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/js/templates.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -891,14 +858,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index_dev.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1224">
-          <caret line="68" column="75" selection-start-line="68" selection-start-column="75" selection-end-line="68" selection-end-column="75" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="303">
@@ -907,10 +866,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/webstorm.jar!/resources/html5-schema/html5/embed.rnc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="101">
+          <caret line="333" column="16" selection-start-line="333" selection-start-column="16" selection-end-line="333" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/articles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="120" column="16" selection-start-line="120" selection-start-column="16" selection-end-line="120" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/articles_ru/on_data/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="28" column="650" selection-start-line="28" selection-start-column="650" selection-end-line="28" selection-end-column="650" />
+        <state relative-caret-position="80">
+          <caret line="37" column="51" selection-start-line="37" selection-start-column="51" selection-end-line="37" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index_dev.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="82">
+          <caret line="38" column="61" selection-start-line="38" selection-start-column="61" selection-end-line="38" selection-end-column="61" />
           <folding />
         </state>
       </provider>

@@ -160,7 +160,9 @@ function Article(title, body){
 		'</ul>' +
 		'</div>' +
 		'\t</div>\n\n' +
-		'\t<!-- Scripts -->\n    <script>\n    var div = document.getElementById("back");\n    div.onclick = function () {\n        window.history.back();\n    }\n    </script>\n' +
+		'\t<!-- Scripts -->\n    ' +
+		'<script>\n    ' +
+		'var div = document.getElementById("back");\n    div.onclick = function () {\n        window.history.back();\n    }\n    </script>\n' +
 		'<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js">' +
 		'</script><script type="text/javascript" src="/assets/js/scrollup.js"></script>\n' +
 		'\t<script src="/assets/js/jquery.min.js"></script>\n\t' +

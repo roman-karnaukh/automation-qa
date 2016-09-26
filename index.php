@@ -105,6 +105,18 @@
 											<a href="articles_ru/recycler_view" class="image fit">Работаем с RecyclerView</a><br>
                                             <p>Описание основных аспектов тестирования приложения, использующего в качестве контейнера RecyclerView</p>
                                         </div>
+                                        <div class="4u 12u$(mobile)">
+											<a href="articles_ru/on_data" class="image fit">Работа с ListView</a><br>
+											<p>Примеры использования onData и матчеров, базирующихся на модели данных</p>
+										</div>
+										<div class="4u 12u$(mobile)">
+											<a href="articles_ru/" class="image fit">title</a><br>
+											<p>df/p>
+										</div>
+										<div class="4u$ 12u$(mobile)">
+											<a href="articles_ru/recycler_view" class="image fit">title</a><br>
+                                            <p>bo</p>
+                                        </div>
 									</div>
 								</section>
 							</article>

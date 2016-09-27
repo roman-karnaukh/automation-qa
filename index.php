@@ -110,8 +110,8 @@
 											<p>Примеры использования onData и матчеров, базирующихся на модели данных</p>
 										</div>
 										<div class="4u 12u$(mobile)">
-											<a href="articles_ru/" class="image fit">title</a><br>
-											<p>df/p>
+											<a href="articles_ru/espresso_blackbox" class="image fit">Espresso BlackBox метод</a><br>
+											<p>Два спопоба запуска автотестов имея только apk - файл/p>
 										</div>
 										<div class="4u$ 12u$(mobile)">
 											<a href="articles_ru/recycler_view" class="image fit">title</a><br>

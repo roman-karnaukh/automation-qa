@@ -111,11 +111,11 @@
 										</div>
 										<div class="4u 12u$(mobile)">
 											<a href="articles_ru/espresso_blackbox" class="image fit">Espresso BlackBox метод</a><br>
-											<p>Два спопоба запуска автотестов имея только apk - файл/p>
+											<p>Два спопоба запуска автотестов имея только apk - файл</p>
 										</div>
 										<div class="4u$ 12u$(mobile)">
-											<a href="articles_ru/recycler_view" class="image fit">title</a><br>
-                                            <p>bo</p>
+											<a href="articles_ru/get_resources" class="image fit">Получаем ресурсы с apk</a><br>
+                                            <p>О том, как получить id ресурсов имя только apk-файл</p>
                                         </div>
 									</div>
 								</section>

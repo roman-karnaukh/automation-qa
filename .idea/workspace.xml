@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2e888cd3-3024-4b70-8010-0b4c177f7b46" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/articles_ru/espresso_blackbox/run.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/articles_ru/espresso_blackbox/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/articles_ru/get_resources/index.html" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/css/images/back.png" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/articles_ru/on_data/index.html" afterPath="$PROJECT_DIR$/articles_ru/on_data/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index_dev.html" afterPath="$PROJECT_DIR$/index_dev.html" />
     </list>
@@ -26,18 +25,7 @@
     <favorites_list name="AutomationQaSite" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="159">
-              <caret line="113" column="100" selection-start-line="113" selection-start-column="100" selection-end-line="113" selection-end-column="100" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -57,13 +45,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="/HTML Fragment (index_dev.html:8452).html" />
-        <option value="/HTML Fragment (index_dev.html:16231).html" />
-        <option value="/HTML Fragment (index_dev.html:18300).html" />
-        <option value="/HTML Fragment (index_dev.html:16330).html" />
-        <option value="/HTML Fragment (index_dev.html:27114).html" />
-        <option value="$PROJECT_DIR$/articles_ru/custom_view_assertions/index_dev.html" />
-        <option value="/HTML Fragment (index_dev.html:1666).html" />
         <option value="/HTML Fragment (index_dev.html:1894).html" />
         <option value="/HTML Fragment (index_dev.html:2915).html" />
         <option value="/HTML Fragment (index_dev.html:10872).html" />
@@ -105,8 +86,15 @@
         <option value="/HTML Fragment (index_dev.html:11223).html" />
         <option value="/HTML Fragment (index_dev.html:19487).html" />
         <option value="/HTML Fragment (index_dev.html:24409).html" />
-        <option value="$PROJECT_DIR$/index_dev.html" />
         <option value="$PROJECT_DIR$/articles_ru/espresso_blackbox/index.html" />
+        <option value="/HTML Fragment (index_dev.html:1518).html" />
+        <option value="/HTML Fragment (index_dev.html:40456).html" />
+        <option value="/HTML Fragment (index_dev.html:40750).html" />
+        <option value="/HTML Fragment (index_dev.html:51517).html" />
+        <option value="/HTML Fragment (index_dev.html:58834).html" />
+        <option value="/HTML Fragment (index_dev.html:70578).html" />
+        <option value="$PROJECT_DIR$/index_dev.html" />
+        <option value="$PROJECT_DIR$/articles_ru/get_resources/index.html" />
         <option value="$PROJECT_DIR$/index.php" />
       </list>
     </option>
@@ -335,6 +323,24 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="get_resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AutomationQaSite" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AutomationQaSite" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="articles_ru" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="first_tests" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -382,11 +388,11 @@
       <recent name="$PROJECT_DIR$/articles_ru/recycler_view" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/articles_ru/get_resources" />
+      <recent name="$PROJECT_DIR$/assets/css/images" />
       <recent name="$PROJECT_DIR$/articles_ru/espresso_blackbox" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/articles_ru/on_data" />
-      <recent name="$PROJECT_DIR$/articles_ru/recycler_view" />
-      <recent name="$PROJECT_DIR$/articles_ru/ui_automator_viewer" />
     </key>
   </component>
   <component name="RunManager" selected="JavaScript Debug.index_dev.html (1)">
@@ -495,18 +501,18 @@
       <workItem from="1474544995180" duration="8384000" />
       <workItem from="1474638059586" duration="6024000" />
       <workItem from="1474900434597" duration="5546000" />
-      <workItem from="1474979180633" duration="1593000" />
+      <workItem from="1474979180633" duration="3727000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="86168000" />
+    <option name="totallyTimeSpent" value="88302000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="-4" width="1301" height="772" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24980783" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24980783" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39910313" sideWeight="0.50269026" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -540,7 +546,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/template.html" />
     <entry file="file://$PROJECT_DIR$/test.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -874,47 +879,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index_dev.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="363">
-          <caret line="86" column="24" selection-start-line="86" selection-start-column="24" selection-end-line="86" selection-end-column="24" />
-          <folding>
-            <marker date="1474980552118" expanded="true" signature="3141:3191" ph="..." />
-            <marker date="1474980552118" expanded="true" signature="3278:3425" ph="..." />
-            <marker date="1474980552118" expanded="true" signature="3428:3432" ph="&lt;" />
-            <marker date="1474980552118" expanded="true" signature="3489:3539" ph="..." />
-            <marker date="1474980552118" expanded="true" signature="3626:3773" ph="..." />
-            <marker date="1474980552118" expanded="true" signature="3776:3782" ph=" " />
-            <marker date="1474980552118" expanded="true" signature="3782:3788" ph=" " />
-            <marker date="1474980552118" expanded="true" signature="3809:3956" ph="..." />
-            <marker date="1474980552118" expanded="true" signature="3987:4134" ph="..." />
-            <marker date="1474980552118" expanded="true" signature="4164:4310" ph="..." />
-            <marker date="1474980552118" expanded="true" signature="4313:4319" ph="&quot;" />
-            <marker date="1474980552118" expanded="true" signature="4365:4371" ph="&quot;" />
-            <marker date="1474980552118" expanded="true" signature="4413:4463" ph="..." />
-            <marker date="1474980552118" expanded="true" signature="4550:4696" ph="..." />
-            <marker date="1474980552118" expanded="true" signature="4699:4705" ph=" " />
-            <marker date="1474980552118" expanded="true" signature="4705:4711" ph=" " />
-            <marker date="1474980552118" expanded="true" signature="4732:4879" ph="..." />
-            <marker date="1474980552118" expanded="true" signature="4910:5057" ph="..." />
-            <marker date="1474980552118" expanded="true" signature="5088:5234" ph="..." />
-            <marker date="1474980552118" expanded="true" signature="5237:5243" ph="&quot;" />
-            <marker date="1474980552118" expanded="true" signature="5248:5254" ph="&quot;" />
-            <marker date="1474980552118" expanded="true" signature="5296:5346" ph="..." />
-            <marker date="1474980552118" expanded="true" signature="5433:5579" ph="..." />
-            <marker date="1474980552118" expanded="true" signature="5582:5588" ph=" " />
-            <marker date="1474980552118" expanded="true" signature="5588:5594" ph=" " />
-            <marker date="1474980552118" expanded="true" signature="5615:5762" ph="..." />
-            <marker date="1474980552118" expanded="true" signature="5793:5940" ph="..." />
-            <marker date="1474980552118" expanded="true" signature="5979:6125" ph="..." />
-            <marker date="1474980552118" expanded="true" signature="6128:6134" ph="&quot;" />
-            <marker date="1474980552118" expanded="true" signature="6146:6152" ph="&quot;" />
-            <marker date="1474980552118" expanded="true" signature="6174:6321" ph="..." />
-            <marker date="1474980552118" expanded="true" signature="6325:6329" ph="&gt;" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/articles_ru/espresso_blackbox/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -956,10 +920,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/index_dev.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="283">
+          <caret line="18" column="100" selection-start-line="18" selection-start-column="100" selection-end-line="18" selection-end-column="100" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="159">
-          <caret line="113" column="100" selection-start-line="113" selection-start-column="100" selection-end-line="113" selection-end-column="100" />
+        <state relative-caret-position="-455">
+          <caret line="117" column="98" selection-start-line="117" selection-start-column="98" selection-end-line="117" selection-end-column="98" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/articles_ru/get_resources/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="19" column="44" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="44" />
           <folding />
         </state>
       </provider>
